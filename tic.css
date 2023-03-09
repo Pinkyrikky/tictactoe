@@ -1,0 +1,29 @@
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    border: 30px ridge;
+    height:900px;
+    width: 900px;
+    box-sizing: border-box;
+    /* cursor:crosshair; */
+}
+div{
+    border: 3px ridge;
+    background-color: rgb(241, 14, 109);
+    text-justify:auto;
+    text-align: center;
+}
+#statusText{
+    margin-left: 4.6em;
+    font-size: 100px;
+
+}
+#restartBtn{
+    font-size: 100px;
+    margin-left: 4.5em;
+    border-radius: 10px;
+    background-color: palegoldenrod;
+    color: black;
+    padding: .1em;
+    cursor: pointer;
+} 
